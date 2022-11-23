@@ -40,9 +40,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/pkg/apis/clientauthentication"
 	clientauthv1beta1 "k8s.io/client-go/pkg/apis/clientauthentication/v1beta1"
-	"sigs.k8s.io/aws-iam-authenticator/pkg"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/arn"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/metrics"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/arn"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/metrics"
 )
 
 // Identity is returned on successful Verify() results. It contains a parsed

@@ -10,7 +10,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/ec2/ec2iface"
 	"github.com/prometheus/client_golang/prometheus"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/metrics"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/metrics"
 )
 
 const (

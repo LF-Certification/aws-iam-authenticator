@@ -15,14 +15,14 @@ import (
 	authenticationv1beta1 "k8s.io/api/authentication/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/cache"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/mapper"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd"
-	iamauthenticatorv1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/controller"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/mapper/file"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/metrics"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/token"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/mapper"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd"
+	iamauthenticatorv1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/controller"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/file"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/metrics"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/token"
 )
 
 func verifyBodyContains(t *testing.T, resp *httptest.ResponseRecorder, s string) {

@@ -3,8 +3,8 @@ package configmap
 import (
 	"strings"
 
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/mapper"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/mapper"
 )
 
 type ConfigMapMapper struct {

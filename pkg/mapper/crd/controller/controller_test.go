@@ -26,10 +26,10 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
 
-	iamauthenticator "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator"
-	iamauthenticatorv1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/fake"
-	informers "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions"
+	iamauthenticator "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator"
+	iamauthenticatorv1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/fake"
+	informers "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions"
 )
 
 var (

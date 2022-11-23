@@ -23,7 +23,7 @@ import (
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
-	iamauthenticatorv1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/typed/iamauthenticator/v1alpha1"
+	iamauthenticatorv1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/typed/iamauthenticator/v1alpha1"
 )
 
 type Interface interface {

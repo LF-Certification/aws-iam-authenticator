@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config/certs"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config/kubeconfig"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config/certs"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config/kubeconfig"
 )
 
 // ServerURL returns the URL to connect to this server.

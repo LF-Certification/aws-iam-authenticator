@@ -17,9 +17,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2/ec2iface"
 	"github.com/aws/aws-sdk-go/service/sts"
 	"github.com/sirupsen/logrus"
-	"sigs.k8s.io/aws-iam-authenticator/pkg"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/httputil"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/metrics"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/httputil"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/metrics"
 )
 
 const (

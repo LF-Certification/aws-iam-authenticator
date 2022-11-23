@@ -23,7 +23,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config/certs"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config/certs"
 )
 
 type KubeconfigParams struct {

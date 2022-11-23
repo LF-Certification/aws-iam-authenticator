@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"sigs.k8s.io/aws-iam-authenticator/pkg/token"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/token"
 
 	"github.com/aws/aws-sdk-go/aws/endpoints"
 	"github.com/spf13/cobra"

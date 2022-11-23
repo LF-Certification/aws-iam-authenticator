@@ -20,7 +20,7 @@ import (
 	"net"
 	"net/http"
 
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config"
 )
 
 // Server for the authentication webhook.

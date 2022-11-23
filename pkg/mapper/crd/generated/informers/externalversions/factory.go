@@ -26,9 +26,9 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
-	versioned "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned"
-	iamauthenticator "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/iamauthenticator"
-	internalinterfaces "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/internalinterfaces"
+	versioned "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned"
+	iamauthenticator "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/iamauthenticator"
+	internalinterfaces "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/internalinterfaces"
 )
 
 // SharedInformerOption defines the functional option type for SharedInformerFactory.

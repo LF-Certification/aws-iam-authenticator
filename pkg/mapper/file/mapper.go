@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"sigs.k8s.io/aws-iam-authenticator/pkg/arn"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/mapper"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/arn"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/mapper"
 )
 
 type FileMapper struct {

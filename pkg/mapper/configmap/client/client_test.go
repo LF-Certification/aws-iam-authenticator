@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	core_v1 "k8s.io/api/core/v1"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/mapper/configmap"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/configmap"
 )
 
 func TestAddUser(t *testing.T) {
