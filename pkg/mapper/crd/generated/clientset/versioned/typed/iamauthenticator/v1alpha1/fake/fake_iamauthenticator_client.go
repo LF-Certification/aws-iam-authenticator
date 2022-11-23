@@ -20,7 +20,7 @@ package fake
 import (
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
-	v1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/typed/iamauthenticator/v1alpha1"
+	v1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/typed/iamauthenticator/v1alpha1"
 )
 
 type FakeIamauthenticatorV1alpha1 struct {

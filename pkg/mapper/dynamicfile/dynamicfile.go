@@ -12,8 +12,8 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/arn"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/arn"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config"
 )
 
 type DynamicFileMapStore struct {

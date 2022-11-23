@@ -19,8 +19,8 @@ import (
 	v1 "k8s.io/client-go/kubernetes/typed/core/v1"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/metrics"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/metrics"
 )
 
 type MapStore struct {

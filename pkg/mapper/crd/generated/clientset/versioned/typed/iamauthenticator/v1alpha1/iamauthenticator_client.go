@@ -19,8 +19,8 @@ package v1alpha1
 
 import (
 	rest "k8s.io/client-go/rest"
-	v1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/scheme"
+	v1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/scheme"
 )
 
 type IamauthenticatorV1alpha1Interface interface {

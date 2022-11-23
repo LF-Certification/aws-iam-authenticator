@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"sigs.k8s.io/aws-iam-authenticator/pkg"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config"
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

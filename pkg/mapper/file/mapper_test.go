@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config"
 )
 
 func init() {

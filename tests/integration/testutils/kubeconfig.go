@@ -22,8 +22,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config/certs"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config/kubeconfig"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config/certs"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config/kubeconfig"
 )
 
 // CreateAPIServerClientKubeconfig will create a kubeconfig for the api server client

@@ -23,7 +23,7 @@ import (
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	iamauthenticatorv1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
+	iamauthenticatorv1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
 )
 
 var Scheme = runtime.NewScheme()

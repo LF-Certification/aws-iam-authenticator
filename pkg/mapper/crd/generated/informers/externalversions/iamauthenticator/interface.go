@@ -18,8 +18,8 @@ limitations under the License.
 package iamauthenticator
 
 import (
-	v1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/iamauthenticator/v1alpha1"
-	internalinterfaces "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/iamauthenticator/v1alpha1"
+	internalinterfaces "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

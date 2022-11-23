@@ -22,10 +22,10 @@ import (
 	"strings"
 
 	"k8s.io/sample-controller/pkg/signals"
-	"sigs.k8s.io/aws-iam-authenticator/pkg"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/mapper"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/metrics"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/server"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/mapper"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/metrics"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/server"
 
 	"github.com/aws/aws-sdk-go/aws/endpoints"
 	"github.com/prometheus/client_golang/prometheus"

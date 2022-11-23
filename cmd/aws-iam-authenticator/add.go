@@ -26,8 +26,8 @@ import (
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 	clientcmd_api "k8s.io/client-go/tools/clientcmd/api"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config"
-	"sigs.k8s.io/aws-iam-authenticator/pkg/mapper/configmap/client"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/configmap/client"
 	"sigs.k8s.io/yaml"
 )
 

@@ -25,8 +25,8 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
-	v1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
-	scheme "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/scheme"
+	v1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
+	scheme "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/scheme"
 )
 
 // IAMIdentityMappingsGetter has a method to return a IAMIdentityMappingInterface.

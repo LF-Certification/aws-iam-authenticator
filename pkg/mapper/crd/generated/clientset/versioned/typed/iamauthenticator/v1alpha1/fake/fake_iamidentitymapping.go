@@ -26,7 +26,7 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	testing "k8s.io/client-go/testing"
-	v1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
+	v1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
 )
 
 // FakeIAMIdentityMappings implements IAMIdentityMappingInterface

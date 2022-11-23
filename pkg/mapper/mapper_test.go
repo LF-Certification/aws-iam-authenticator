@@ -3,7 +3,7 @@ package mapper
 import (
 	"testing"
 
-	"sigs.k8s.io/aws-iam-authenticator/pkg/config"
+	"github.com/LF-Certification/aws-iam-authenticator/pkg/config"
 )
 
 func TestValidateBackendMode(t *testing.T) {

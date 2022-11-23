@@ -23,9 +23,9 @@ import (
 	"k8s.io/client-go/discovery"
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
-	clientset "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned"
-	iamauthenticatorv1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/typed/iamauthenticator/v1alpha1"
-	fakeiamauthenticatorv1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/typed/iamauthenticator/v1alpha1/fake"
+	clientset "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned"
+	iamauthenticatorv1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/typed/iamauthenticator/v1alpha1"
+	fakeiamauthenticatorv1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned/typed/iamauthenticator/v1alpha1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

@@ -21,7 +21,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	iamauthenticator "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator"
+	iamauthenticator "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator"
 )
 
 // SchemeGroupVersion is group version used to register these objects

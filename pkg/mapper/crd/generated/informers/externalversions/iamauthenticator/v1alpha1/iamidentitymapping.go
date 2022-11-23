@@ -25,10 +25,10 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
 	cache "k8s.io/client-go/tools/cache"
-	iamauthenticatorv1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
-	versioned "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned"
-	internalinterfaces "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/internalinterfaces"
-	v1alpha1 "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/listers/iamauthenticator/v1alpha1"
+	iamauthenticatorv1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/apis/iamauthenticator/v1alpha1"
+	versioned "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/clientset/versioned"
+	internalinterfaces "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/listers/iamauthenticator/v1alpha1"
 )
 
 // IAMIdentityMappingInformer provides access to a shared informer and lister for

@@ -18,7 +18,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	internalinterfaces "sigs.k8s.io/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/LF-Certification/aws-iam-authenticator/pkg/mapper/crd/generated/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.
